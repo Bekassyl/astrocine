@@ -209,6 +209,16 @@ function formatDate(dateString) {
       color: var(--text-muted);
       background: var(--bg-secondary);
     }
+
+    @media (max-width: 640px) {
+      .post-link {
+        flex-wrap: wrap;
+      }
+
+      .post-date {
+        min-width: auto;
+      }
+    }
   </style>
 </head>
 <body>

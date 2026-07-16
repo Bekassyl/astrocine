@@ -56,11 +56,19 @@ body {
 	transition: background-color 0.3s ease, color 0.3s ease;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* Pushes the footer to the bottom of the viewport on short pages, regardless
+   of how the page content before it is wrapped (main, main+aside, etc). */
+footer {
+	margin-top: auto;
 }
 
 /* ── Global layout ── */
 main {
-	width: 700px;
 	max-width: calc(100% - 2rem);
 	margin: 0 auto;
 	padding: 2.5rem 1rem 4rem;
