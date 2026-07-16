@@ -44,8 +44,8 @@ Desktop.ini
 # vscode setting folder
 .vscode/
 
-# claude local settings (machine-specific, not shared)
-.claude/settings.local.json
+# claude code tooling (local, machine-specific)
+.claude/
 
 # claude instructions
 .projectPlan
