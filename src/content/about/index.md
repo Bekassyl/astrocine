@@ -26,5 +26,5 @@ Public health researcher and Scientific Officer at the National Coordination Cen
 ## Contact
 
 Feel free to reach out to me via:
-- Email: contact@example.com
-- GitHub: github.com/example
+- Email: diyara.mukazhan@alumni.nu.edu.kz
+- LinkedIn: [linkedin.com/diyara-mukazhan](https://www.linkedin.com/in/diyara-mukazhan-308839329/)

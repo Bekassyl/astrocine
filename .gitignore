@@ -15,13 +15,37 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.local
+.env.development
+.env.development.local
 .env.production
+.env.production.local
+.env.test
+.env.test.local
+
+# secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
 
 # macOS-specific files
 .DS_Store
 
+# Windows-specific files
+Thumbs.db
+Desktop.ini
+
 # jetbrains setting folder
 .idea/
+
+# vscode setting folder
+.vscode/
+
+# claude local settings (machine-specific, not shared)
+.claude/settings.local.json
 
 # claude instructions
 .projectPlan

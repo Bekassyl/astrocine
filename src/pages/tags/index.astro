@@ -5,11 +5,12 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 
 const posts = await getCollection('blog');
+const publications = await getCollection('publications');
 const tagMap = new Map();
 
-posts.forEach((post) => {
-  if (post.data.tags) {
-    post.data.tags.forEach((tag) => {
+[...posts, ...publications].forEach((entry) => {
+  if (entry.data.tags) {
+    entry.data.tags.forEach((tag) => {
       if (!tagMap.has(tag)) {
         tagMap.set(tag, 0);
       }

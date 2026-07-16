@@ -2,7 +2,7 @@
 title: Introducing Zen Theme
 description: A clean, modern Astro blog theme with excellent readability and beautiful typography.
 pubDate: 2026-05-14
-tags: ["theme", "design", "zen", "astro", "blog"]
+tags: ["Public Health", "Emergency Medicine", "Research", "Evidence-Based Medicine", "Kazakhstan"]
 ---
 
 ## Quick Start
