@@ -1,37 +1,27 @@
 ---
 name: Diyara Mukazhan
 title: Public health researcher / Scientific officer at the National Coordination Center for Emergency Medicine
-experience:
-  - role: "Research Mathematician"
-    institution: "Bell Telephone Laboratories"
-    period: "1941 - 1972"
-    description: "Conducted groundbreaking research in information theory, cryptography, and digital computing."
-  - role: "Professor of Electrical Engineering"
-    institution: "MIT"
-    period: "1958 - 1978"
-    description: "Taught courses in information theory, switching theory, and mathematical foundations of computing."
 education:
-  - degree: "PhD in Mathematics"
-    institution: "MIT"
-    period: "1936 - 1940"
-    thesis: "An Algebra for Theoretical Genetics"
-    description: "Developed mathematical foundations for genetic inheritance."
-  - degree: "Bachelor of Science in Electrical Engineering"
-    institution: "University of Michigan"
-    period: "1932 - 1936"
+  - degree: "Master of Public Health (MPH), Public Health"
+    institution: "Nazarbayev University"
+    period: "Aug 2022 - Jun 2024"
+    description: "Graduated with Honors"
+  - degree: "Bachelor of Science in Biology"
+    institution: "Nazarbayev University"
+    period: "2018 - 2022"
 ---
 
 ## About Me
 
-Passionate about technology, focusing on Web development and security research. Sharing technical insights, study notes, and project experiences here.
+Public health researcher and Scientific Officer at the National Coordination Center for Emergency Medicine in Kazakhstan. My work focuses on evidence synthesis in pain medicine, including systematic and umbrella reviews on pain biomarkers and analgesic strategies. I collaborate with researchers across anesthesiology, intensive care, and pain medicine to translate evidence into better emergency and perioperative care.
 
 ## Research Interests
 
-- JavaScript / TypeScript
-- React / Vue
-- Node.js
-- Python
-- Web Security
+- Pain Medicine & Analgesia
+- Evidence Synthesis (Systematic & Umbrella Reviews)
+- Emergency Medicine
+- Public Health Policy
+- Clinical Biomarkers
 
 ## Contact
 

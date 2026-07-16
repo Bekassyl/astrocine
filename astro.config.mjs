@@ -6,7 +6,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 import rehypeWrapTables from './src/plugins/rehype-wrap-tables';
 
 export default defineConfig({
-	site: 'https://simple.com',
+	site: 'https://bekassyl.github.io',
+	base: '/astrocine/',
 	vite: {},
 	integrations: [
 		expressiveCode({

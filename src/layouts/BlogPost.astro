@@ -667,7 +667,7 @@ const { title, description, pubDate, updatedDate, headings, tags } = Astro.props
                   <span class="meta-dot"></span>
                   <div class="article-tags">
                     {tags.map(tag => (
-                      <a href={`/tags/${tag}/`} class="tag">{tag}</a>
+                      <a href={`${import.meta.env.BASE_URL}tags/${tag}/`} class="tag">{tag}</a>
                     ))}
                   </div>
                 </>

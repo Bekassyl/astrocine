@@ -1,7 +1,6 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
-import SearchModal from './SearchModal.astro';
 
 const isDark = 'dark';
 ---
@@ -33,7 +32,7 @@ const isDark = 'dark';
 <header>
 	<nav>
 		<div class="nav-left">
-			<h2><a href="/">{SITE_TITLE}</a></h2>
+			<h2><a href={import.meta.env.BASE_URL}>{SITE_TITLE}</a></h2>
 		</div>
 		
 		<div class="nav-center">
@@ -45,7 +44,6 @@ const isDark = 'dark';
 		</div>
 		
 		<div class="nav-right">
-			<SearchModal />
 			<button id="theme-toggle" class="nav-btn" title="Toggle theme" aria-label="Toggle theme">
 				<svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<circle cx="12" cy="12" r="5"/>

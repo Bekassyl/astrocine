@@ -1,0 +1,96 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<BaseHead title={`Page Not Found | ${SITE_TITLE}`} description="The page you're looking for doesn't exist." />
+		<style>
+			.not-found {
+				max-width: 480px;
+				margin: 0 auto;
+				padding: 5rem 1.5rem 6rem;
+				text-align: center;
+			}
+			.not-found-code {
+				font-size: 5rem;
+				font-weight: 800;
+				line-height: 1;
+				margin: 0 0 0.5rem;
+				background: linear-gradient(135deg, var(--accent), #8b5cf6);
+				-webkit-background-clip: text;
+				background-clip: text;
+				color: transparent;
+				letter-spacing: -0.02em;
+			}
+			.not-found-title {
+				font-size: 1.375rem;
+				font-weight: 700;
+				color: var(--text-primary);
+				margin: 0 0 0.75rem;
+			}
+			.not-found-description {
+				font-size: 0.95rem;
+				color: var(--text-muted);
+				line-height: 1.7;
+				margin: 0 0 2rem;
+			}
+			.not-found-actions {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 0.75rem;
+			}
+			.not-found-link {
+				display: inline-flex;
+				align-items: center;
+				gap: 0.5rem;
+				padding: 0.65rem 1.25rem;
+				border-radius: 0.5rem;
+				font-size: 0.9rem;
+				font-weight: 600;
+				text-decoration: none;
+				transition: all 0.2s ease;
+			}
+			.not-found-link.primary {
+				background: var(--accent);
+				color: white;
+			}
+			.not-found-link.primary:hover {
+				background: var(--accent-hover);
+				transform: translateY(-2px);
+			}
+			.not-found-link.secondary {
+				background: var(--bg-secondary);
+				color: var(--text-primary);
+				border: 1px solid var(--border-color);
+			}
+			.not-found-link.secondary:hover {
+				border-color: var(--accent);
+				color: var(--accent);
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="not-found">
+				<p class="not-found-code">404</p>
+				<h1 class="not-found-title">Page not found</h1>
+				<p class="not-found-description">
+					The page you're looking for doesn't exist or may have been moved.
+				</p>
+				<div class="not-found-actions">
+					<a href={import.meta.env.BASE_URL} class="not-found-link primary">Go home</a>
+					<a href={`${import.meta.env.BASE_URL}blog/`} class="not-found-link secondary">Browse blog</a>
+					<a href={`${import.meta.env.BASE_URL}publications/`} class="not-found-link secondary">Publications</a>
+				</div>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

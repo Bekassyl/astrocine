@@ -8,7 +8,6 @@ A clean, modern Astro blog theme with excellent readability and beautiful typogr
 - 🔤 **Inter Font**: Optimal readability with Inter typeface
 - 🎯 **Responsive Design**: Fully responsive for mobile and desktop
 - 🌙 **Dark Mode**: Automatic theme switching based on time and user preference
-- 🔍 **Search**: Built-in search functionality with Pagefind
 - 📝 **Markdown Support**: Full markdown support
 - 📊 **Beautiful Tables**: Styled tables with hover effects
 - 📱 **Sidebar TOC**: Fixed table of contents for easy navigation
@@ -19,7 +18,6 @@ A clean, modern Astro blog theme with excellent readability and beautiful typogr
 ## Tech Stack
 
 - **Astro** - Static site generator
-- **Pagefind** - Search functionality
 - **Inter Font** - Typography
 
 ## Getting Started
@@ -67,8 +65,7 @@ npm run preview
 │   │   ├── Footer.astro     # Footer component
 │   │   ├── FormattedDate.astro # Date formatting
 │   │   ├── Header.astro     # Header component
-│   │   ├── HeaderLink.astro # Header link component
-│   │   └── SearchModal.astro # Search modal component
+│   │   └── HeaderLink.astro # Header link component
 │   ├── content/            # Blog content
 │   │   └── blog/           # Blog posts
 │   ├── layouts/            # Page layouts
@@ -195,5 +192,4 @@ This project is open source and available for personal use.
 ## Acknowledgments
 
 - Built with [Astro](https://astro.build/)
-- Search powered by [Pagefind](https://pagefind.app/)
 - Font by [Inter](https://fonts.google.com/specimen/Inter)

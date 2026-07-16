@@ -123,7 +123,7 @@ const tags = Array.from(tagMap.entries())
     <h1 class="page-title">Tags</h1>
     <div class="tags-container">
       {tags.map(({ tag, count }) => (
-        <a href={`/tags/${tag}/`} class="tag-link" key={tag}>
+        <a href={`${import.meta.env.BASE_URL}tags/${tag}/`} class="tag-link" key={tag}>
           <span>#{tag}</span>
           <span class="tag-count">{count}</span>
         </a>
